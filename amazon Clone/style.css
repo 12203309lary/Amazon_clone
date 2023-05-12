@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body{
+    background-color: rgb(20,20,20);
+}
+
+ header{
+    padding: 8px 0;
+   background-color: rgb(40,40,40);
+ }
+
+ .center{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding:0 2%;
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .logo{
+    display: inline-block;
+    vertical-align: middle;
+ }
+
+ .logo img{
+    max-width: 150px;
+    width: 100%;
+ }
+  
+ .menu{
+    width:40%;  
+ }
+
+ .menu-itens{
+    padding: 0 20px;
+    display: inline-block;
+   
+ }
+
+ .menu-itens a{
+    color: rgb(120,120,120);
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+
+ }
+
+
+ .menu-itens a:hover{
+     color:white;
+ }
+
+ .search{
+    width: 60%;
+    text-align: right;
+ }
+
+ .input-search{
+    position: relative;
+    width:200px;
+    display: inline-block;
+ }
+   
+ .input-search i{
+    position: absolute;
+    left:4px;
+    top: 15px;
+    color: rgb(100,100,100);
+ }
+
+.input-search input [type=text]{
+    width:100%;
+    height:30px;
+    border:1px solid rgb(120,120,120);
+    margin: 9px 0; 
+    padding-left:24px;
+    background-color:rgb(40, 40, 40);
+    color: white;
+}
+
+.momento{
+   color: white;
+   width: 150%;
+   margin:30px;
+
+}
+
+.dom{
+   width:100%;
+   height:400px;
+   background-size: cover;
+   background-position: center;
+   border: radius 10px;
+   transition: all 0.5s;
+   cursor: pointer;
+}
+
+.destaque{
+   color: white;
+   width: 150%;
+   margin:30px;
+}
+
+.till{
+  width: 14%;
+}
+
+.till{
+   transition: all 0.5s;
+   cursor: pointer;
+}
+
+.till:hover{
+-webkit-transform: scale(1,5);
+transform: scale(1.5);
+}
+
+.esquema-de-risco{
+  width: 14%;
+}
+
+.esquema-de-risco{
+   transition: all 0.5s;
+   cursor: pointer;
+}
+
+.esquema-de-risco:hover{
+-webkit-transform: scale(1,5);
+transform: scale(1.5);
+}
+
+
+.barbie{
+   width: 14%;
+}
+
+.barbie{
+   transition: all 0.5s;
+   cursor: pointer;
+}
+
+.barbie:hover{
+-webkit-transform: scale(1,5);
+transform: scale(1.5);
+}
+
+ 
+.suprema{
+   width: 14%;
+
+}
+
+.suprema{
+
+   transition: all 0.5s;
+   cursor: pointer;
+}
+
+.suprema:hover{
+-webkit-transform: scale(1,5);
+transform: scale(1.5);
+}
+
+
+.a-pequena-sereia{
+   width: 14%;
+}
+
+.a-pequena-sereia{
+   
+   transition: all 0.5s;
+   cursor: pointer;
+}
+
+.a-pequena-sereia:hover{
+-webkit-transform: scale(1,5);
+transform: scale(1.5);
+}
+
+.historia{
+   width: 14%;
+}
+
+.historia{
+   
+   
+   transition: all 0.5s;
+   cursor: pointer;
+}
+
+.historia:hover{
+-webkit-transform: scale(1,5);
+transform: scale(1.5);
+}
+
+.pai{
+   width: 14%;
+}
+
+.pai{
+   
+   transition: all 0.5s;
+   cursor: pointer;
+}
+
+.pai:hover{
+-webkit-transform: scale(1,5);
+transform: scale(1.5);
+}
+
+.continuar{
+   color: white;
+   width: 150%;
+   margin:30px;
+ 
+}
+
+.heranca{
+   width: 14%;
+}
+
+.heranca{
+   
+   transition: all 0.5s;
+   cursor: pointer;
+}
+
+.heranca:hover{
+-webkit-transform: scale(1,5);
+transform: scale(1.5);
+}
+
+.observador{
+   width: 14%;
+}
+
+.observador{
+   
+   transition: all 0.5s;
+   cursor: pointer;
+}
+
+.observador:hover{
+-webkit-transform: scale(1,5);
+transform: scale(1.5);
+}
+
+
+
+
+
+
+.melhor{
+   color: white;
+   width: 150%;
+   margin:30px;
+ 
+}
+
+.investi{
+   width: 14%;
+}
+
+.investi{
+   
+   transition: all 0.5s;
+   cursor: pointer;
+}
+
+.investi:hover{
+-webkit-transform: scale(1,5);
+transform: scale(1.5);
+}
+
+
+.segredos{
+   width: 14%;
+}
+
+.segredos{
+   
+   transition: all 0.5s;
+   cursor: pointer;
+}
+
+.segredos:hover{
+-webkit-transform: scale(1,5);
+transform: scale(1.5);
+}
+
+.citadel{
+   width: 14%;
+}
+
+.citadel{
+   
+   transition: all 0.5s;
+   cursor: pointer;
+}
+
+.citadel:hover{
+-webkit-transform: scale(1,5);
+transform: scale(1.5);
+}
+
+.jogo{
+   width:14%;
+}
+
+.jogo{
+   
+   transition: all 0.5s;
+   cursor: pointer;
+}
+
+.jogo:hover{
+-webkit-transform: scale(1,5);
+transform: scale(1.5);
+}
+
+.menina{
+   width: 14%;
+}
+
+.menina{
+
+   
+   transition: all 0.5s;
+   cursor: pointer;
+}
+
+.menina:hover{
+-webkit-transform: scale(1,5);
+transform: scale(1.5);
+}
+
+.ame{
+   margin: 14%;
+}
+
+.ame{
+   
+   
+   transition: all 0.5s;
+   cursor: pointer;
+}
+
+.ame:hover{
+-webkit-transform: scale(1,5);
+transform: scale(1.5);
+}
+
+.robados{
+   width: 14%;
+}
+
+.robados{
+   
+   
+   transition: all 0.5s;
+   cursor: pointer;
+}
+
+.robados:hover{
+-webkit-transform: scale(1,5);
+transform: scale(1.5);
+}
+
+.cruel{
+   width: 14%;
+}
+
+.cruel{
+   
+   
+   transition: all 0.5s;
+   cursor: pointer;
+}
+
+.cruel:hover{
+-webkit-transform: scale(1,5);
+transform: scale(1.5);
+}
